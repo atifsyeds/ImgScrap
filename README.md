@@ -65,21 +65,3 @@ This project is licensed under the MIT License. See the LICENSE file for details
 
 ### Disclaimer:
 This tool is for educational purposes only. The developer is not responsible for any misuse of the script.
-
-
-### Additional Instructions:
-
-- Save the file as `README.md` in your project directory.
-- Include a `requirements.txt` file with the following content:
-  ```plaintext
-  requests
-  beautifulsoup4
-
-
-### Additional Instructions
-
-- Save the file as `README.md` in your project directory.
-- Include a `requirements.txt` file with the following content:
-  ```plaintext
-  requests
-  beautifulsoup4
