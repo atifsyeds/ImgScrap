@@ -53,21 +53,28 @@ gsmarena_images
     │   ├── image1.jpg
     │   ├── image2.jpg
     
-Notes:
+### Notes:
 Be respectful of GSMArena's terms of service.
 Avoid overwhelming their servers with too many requests in a short time. You can introduce a delay between requests using time.sleep.
 
-Contributing
+### Contributing:
 Contributions are welcome! Feel free to submit a pull request or create an issue for feature suggestions or bug reports.
 
-License
+### License:
 This project is licensed under the MIT License. See the LICENSE file for details.
 
-Disclaimer
+### Disclaimer:
 This tool is for educational purposes only. The developer is not responsible for any misuse of the script.
 
-javascript
-Copy code
+
+### Additional Instructions:
+
+- Save the file as `README.md` in your project directory.
+- Include a `requirements.txt` file with the following content:
+  ```plaintext
+  requests
+  beautifulsoup4
+
 
 ### Additional Instructions
 
