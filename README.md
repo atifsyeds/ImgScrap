@@ -25,12 +25,10 @@ This script scrapes mobile phone images from GSMArena's website for various bran
    cd gsmarena-image-scraper
 Install dependencies:
 
-bash
-Copy code
 pip install -r requirements.txt
 Create the output folder: The script automatically creates folders for each brand under a directory named gsmarena_images.
 
-Usage
+Usage:
 Edit the script: Update the brands dictionary in the script to include the brands and their respective GSMArena URLs you want to scrape.
 
 Run the script:
@@ -43,17 +41,22 @@ Find the images: Images are saved in the gsmarena_images folder, organized by br
 Example Output
 Directory structure:
 
-Copy code
-gsmarena_images/
+gsmarena_images
+
+    ├── Apple/
+    │   ├── image1.jpg
+    │   ├── image2.jpg
     ├── sony/
     │   ├── image1.jpg
     │   ├── image2.jpg
     ├── samsung/
     │   ├── image1.jpg
     │   ├── image2.jpg
-Notes
+    
+Notes:
 Be respectful of GSMArena's terms of service.
 Avoid overwhelming their servers with too many requests in a short time. You can introduce a delay between requests using time.sleep.
+
 Contributing
 Contributions are welcome! Feel free to submit a pull request or create an issue for feature suggestions or bug reports.
 
