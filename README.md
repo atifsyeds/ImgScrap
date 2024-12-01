@@ -11,6 +11,7 @@ This script scrapes mobile phone images from GSMArena's website for various bran
 - **Duplicate Prevention:** Skips downloading images already saved locally.
 - **Error Handling:** Handles HTTP errors and missing elements gracefully.
 
+
 ##📂 Directory Structure
 ImgScrap/
 - **├── scraper.py            # Main scraping script
