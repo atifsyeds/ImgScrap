@@ -21,8 +21,9 @@ This script scrapes mobile phone images from GSMArena's website for various bran
 
 1. Clone the repository:
    ```
-   git clone https://github.com/yourusername/gsmarena-image-scraper.git
+   git clone https://github.com/atifsyeds/ImgScrap/
    cd gsmarena-image-scraper
+   
  ## Install dependencies:
   `pip install -r requirements.txt`
 
