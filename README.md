@@ -40,19 +40,24 @@ pip install -r requirements.txt
  ```
 
 📜 License
+
 This project is licensed under the MIT License.
 
 📫 Contact
+
 Author: Atif Syed
 Email: *****@gmail.com
 WordPress: Atif Syed's Profile
 
 ⚠️ Notes
+
 Be respectful of GSMArena's terms of service.
 Avoid overwhelming their servers with too many requests in a short time. You can introduce a delay between requests using time.sleep.
 
 🤝 Contributing
+
 Contributions are welcome! Feel free to submit a pull request or create an issue for feature suggestions or bug reports.
 
 ⚠️ Disclaimer
+
 This tool is for educational purposes only. The developer is not responsible for any misuse of the script.
