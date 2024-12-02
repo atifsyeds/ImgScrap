@@ -3,7 +3,7 @@
 This script scrapes mobile phone images from GSMArena's website for various brands and saves them locally. It uses Python's `requests` and `BeautifulSoup` libraries to fetch and parse web pages, and implements user-agent rotation to minimize the chance of being blocked by the server.
 
 
- ##🚀 Features
+ ##🚀 ## Features
 
 - **Multi-brand scraping:** Scrapes phone images from GSMArena for multiple brands.
 - **Pagination:** Automatically navigates through pages to fetch all images.
@@ -13,7 +13,7 @@ This script scrapes mobile phone images from GSMArena's website for various bran
 - **Error Handling:** Handles HTTP errors and missing elements gracefully.
 
 
-##📂 Directory Structure
+##📂## Directory Structure
 ImgScrap/
 - **├── scraper.py            # Main scraping script
 - **├── requirements.txt      # Dependencies list
@@ -38,10 +38,10 @@ ImgScrap/
  ## Install dependencies:
   `pip install -r requirements.txt`
 
-📜 License
+##📜 ## License
 This project is licensed under the MIT License.
 
-📫 Contact
+##📫 ## Contact
 Author: Atif Syed
 Email: *****@gmail.com
 
