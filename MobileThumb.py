@@ -1,4 +1,5 @@
-import os
+import os 
+import random
 import requests
 from bs4 import BeautifulSoup
 
@@ -43,6 +44,8 @@ brands = {
             "tcl": "https://www.gsmarena.com/tcl-phones-123.php"
 
 }
+
+
 # List of User-Agent strings for rotation
 user_agents = [
     'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
@@ -51,6 +54,10 @@ user_agents = [
     'Mozilla/5.0 (iPhone; CPU iPhone OS 14_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.1 Mobile/15E148 Safari/604.1',
     'Mozilla/5.0 (Linux; Android 11; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Mobile Safari/537.36',
 ]
+
+headers = {
+    'User-Agent': random.choice(user_agents)
+}
 
 # Function to download images from a page
 def download_images_from_page(brand_name, page_url, output_folder):
